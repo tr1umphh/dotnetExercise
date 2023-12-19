@@ -2,11 +2,11 @@
 
 public class Recipe
 {
-    private Guid id { get; set; }
-    private string recipeTitle { get; set; }
-    private string recipeIngredients { get; set; }
-    private string recipeInstructions { get; set; }
-    private List<Category> categories { get; set; }
+    public Guid id { get; set; }
+    public string recipeTitle { get; set; }
+    public string recipeIngredients { get; set; }
+    public string recipeInstructions { get; set; }
+    public List<Category> categories { get; set; }
 
     public Recipe(
         string recipeTitle,

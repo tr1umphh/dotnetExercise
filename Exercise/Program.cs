@@ -1,4 +1,5 @@
-﻿using Spectre.Console;
+﻿using Exercise;
+using Spectre.Console;
 
 var font = FigletFont.Load("../../../public/starwars.flf");
 
@@ -7,3 +8,4 @@ AnsiConsole.Write(
         .Centered()
         .Color(Color.Yellow2)
 );
+Application.Run();
