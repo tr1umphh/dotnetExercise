@@ -8,4 +8,3 @@ AnsiConsole.Write(
         .Centered()
         .Color(Color.Yellow2)
 );
-Application.Run();
